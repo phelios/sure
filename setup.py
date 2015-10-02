@@ -48,7 +48,7 @@ def local_file(*f):
     return codecs.open(path, 'r', encoding='utf-8').read()
 
 
-install_requires = ['mock', 'six']
+install_requires = ['mock==1.0.1', 'six']
 tests_require = ['nose']
 
 
